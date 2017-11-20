@@ -4,11 +4,17 @@
 <style lang="scss" scoped="">
   @import "../functions";
 
-  .dialog__inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  .dialog__wrap {
+    .dialog__inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .dialog__text {
+      font-size: px2rem(28);
+      margin-top: px2rem(20);
+    }
   }
 </style>
 <template>

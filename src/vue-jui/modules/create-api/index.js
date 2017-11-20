@@ -2,7 +2,7 @@ import CompontentApi from '../../common/CompontentApi'
 
 const _CompontentApi = {
   install (Vue) {
-    Vue.prototype['createAip'] = function (component) {
+    Vue.prototype['$createAip'] = function (component) {
       return {
         setSingle (single) {
           this.single = single

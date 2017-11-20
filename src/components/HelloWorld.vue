@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: Math.random()+'s'+(~new Date() )
+      msg: '我是通过api创建的组件'
     }
   },
   methods:{

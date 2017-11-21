@@ -1,7 +1,7 @@
 {
-  "name": "vue-jui",
-  "version": "0.1.2",
-  "description": "vue弹框插件",
+  "name": "vue-load-async-data ",
+  "version": "0.1.0",
+  "description": "vue-load-async-data",
   "author": "JianZG <2992265870@qq.com>",
   "private": false,
   "scripts": {
@@ -9,8 +9,9 @@
     "start": "npm run dev",
     "build": "node build/build.js"
   },
-  "main":"./lib/index.js",
+  "main": "./lib/index.js",
   "dependencies": {
+    "jquery": "^3.2.1",
     "vue": "^2.5.2"
   },
   "devDependencies": {

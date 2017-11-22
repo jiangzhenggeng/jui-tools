@@ -12,6 +12,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "jquery": "^3.2.1",
+    "md5": "^2.2.1",
     "vue": "^2.5.2"
   },
   "devDependencies": {
